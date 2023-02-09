@@ -1,0 +1,38 @@
+{
+  "dict": [["Melódicos", "Rítmicos"], ["m", "r"], "Estos son los dictados que te puedo ofrecer:"],
+
+  "lect": [["Melódicas", "Rítmicas"], ["m", "r"], "Estas son las lecturas que te puedo ofrecer:"],
+
+  "years":  ["I", "II", "III", "IV", "Audioperceptiva"],
+
+  "hind": ["III", "IV", "V", "VI", "VII", "VIII", "IX", "X"],
+
+  "melo": ["II","III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI"],
+
+  "captionm": [" Completo", " Comapases 1, 2 y primer sonido del 3", " Compases 3, 4 y primer sonido del 5",
+              " Compases 5, 6 y primer sonido del 7", " Compases 7 y 8"],
+
+  "captionr": [" Completo", " Comapases 1 y 2", " Compases 3 y 4", " Compases 5 y 6", " Compases 7 y 8"],
+
+  "start": [["Dictados", "dict", "mel_rit"], ["Hindemith", "hind", "chapters"], ["Melo Castillo", "melo", "chapters"],
+            ["Lecturas", "lect", "mel_rit"], ["Solfeos", "solf", "solf"], ["Teoria", "teo", "teo1"],
+            ["Bibliografia", "bib", "books"], ["Secuencias", "secuencias", "sequence"], ["Reconocimientos",
+            "rec", "recon" ], ["Reportá", "rep", "rep"], ["Terminar", "end", "end"]],
+
+  "root": ["Dob", "Reb", "Mib", "Fab", "Solb", "Lab", "Sib", "Do", "Re", "Mi", "Fa", "Sol", "La", "Si",
+            "Do#", "Re#", "Mi#", "Fa#", "Sol#", "La#", "Si#"],
+  "roots": ["Cb", "Db", "Eb", "Fb", "Gb", "Ab", "Bb", "C", "D", "E", "F", "G", "A", "B",
+            "C#", "D#", "E#", "F#", "G#", "A#", "B#"],
+  "modos": ["Mayor", "Menor natural", "Menor armonica"],
+  "alteraciones": {"do bèmol": "dob", "re bèmol": "reb", "mi bèmol": "mib", "fa bèmol": "fab", "sol bèmol": "solb",
+                   "la bèmol": "lab", "si bèmol": "sib", "do doble bèmol": "dobb", "re doble bèmol": "rebb",
+                   "mi doble bèmol": "mibb", "fa doble bèmol": "fabb", "sol doble bèmol": "solbb",
+                   "la doble bèmol": "labb", "si doble bèmol": "sibb", "do sostenido": "do#", "re sostenido": "re#",
+                   "mi sostenido": "mi#", "fa sostenido": "fa#", "sol sostenido": "sol#", "la sostenido": "la#",
+                   "si sostenido": "si#", "do doble sostenido": "doX", "re doble sostenido": "reX",
+                   "mi doble sostenido": "miX", "fa doble sostenido": "faX", "sol doble sostenido": "solX",
+                   "la doble sostenido": "laX", "si doble sostenido": "siX"
+       },
+  "modes": {"Mayor": "scale.MajorScale", "Menor natural": "scale.MinorScale", "Menor armonica": "scale.HarmonicMinorScale"},
+  "solf": [" Piano y Voz", " Piano solo"]
+}
