@@ -1,0 +1,7 @@
+log.txt
+token.json
+__pycache__
+.idea/
+.DS_Store
+sound/fonts
+sound fonts/
